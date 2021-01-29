@@ -22,6 +22,7 @@ function App() {
   
   return (
     <div  className={isLit?"bright App":"dark App"}>
+      
     <div>
       <button onClick={(prevValue)=>setCounter(counter-1)}>-</button>
       <span>  {counter}  </span>
